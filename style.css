@@ -1,0 +1,77 @@
+/* Setting generali */
+* {
+  margin:1px;
+}
+
+body {
+  background-image:url("background.jpg");
+  background-size: 100%;
+  font-family: sans-serif;
+}
+
+header {
+  color:#11d704;
+  text-align:center;
+}
+
+#logo {
+  width: 20%;
+}
+
+nav {
+  padding:10px;
+  background-color:#11d704;
+  text-align:center;
+}
+
+/* Setting contenitore */
+.contenitore {
+  background-color:rgba(0, 0, 0, 0.5);
+  margin:auto;
+  margin-top:20px;
+  width: 50%;
+  padding:100px;
+  border-radius: 10px;
+}
+
+/* Testo nel contenitore */
+main div {
+  color:white;
+  margin-top:20px;
+}
+
+
+/* Iconcine */
+h3:before {
+  content:"\2BC0"
+}
+
+.indirizzo:before {
+  content:"\21A6"
+}
+
+/* Barre*/
+div.barra {
+  height:25px;
+  margin-top: 1px;
+  border-radius: 3px;
+}
+
+.mediamente_caricata {
+  background-color:orange;
+  width:40%;
+}
+
+.totalmente_caricata {
+  background-color:#11d704;
+  width:65%;
+}
+
+.poco_caricata {
+  background-color: red;
+  width:20%;
+}
+
+
+/* Appunto per Boolean:
+Non ho trovato i colori e i font esatti ma ho fatto quel che potevo*/
